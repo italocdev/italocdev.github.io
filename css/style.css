@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #191d40;
+    margin-bottom: 60px;
+}
+
+.title {
+    color: #202244;
+    font-weight: 600;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.register-form {
+    margin-left: 6%;
+}
+
+.register {
+    height: 50px;
+    width: 85%;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.register::placeholder{
+    padding: 20px;
+    font-size: 16px;
+    color: #202244;
+}
+
+.sendButton {
+    height: 50px;
+    width: 85%;
+    border-radius: 12px;
+    border: none;
+    background-color: #18a0fc;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.signup {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+
+.warning {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.warning a {
+    color: #18a0fc;
+    text-decoration: none ;
+    width: 100%;
+}
